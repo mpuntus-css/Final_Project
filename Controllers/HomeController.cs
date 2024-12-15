@@ -6,17 +6,31 @@ namespace Final_Project.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        // private readonly ILogger<HomeController> _logger;
+        private readonly IProductRepository _repository;
 
-        public HomeController(ILogger<HomeController> logger)
+
+        public HomeController(IProductRepository repository)
         {
-            _logger = logger;
+            _repository = repository;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var products = _repository.GetAllProducts(); 
+            return View(products);
         }
+
+
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
+
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
 
         public IActionResult Privacy()
         {

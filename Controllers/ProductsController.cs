@@ -6,11 +6,19 @@ namespace Final_Project.Controllers
     public class ProductsController : Controller
     {
 
-        private IProductRepository repository;
+        private readonly IProductRepository repository;
 
         public ProductsController(IProductRepository repository)
         {
             this.repository = repository;
+
+            repository.AddProduct(new Electronics
+            {
+                Id = 1,
+                Name = "Laptop",
+                Price = (double)999.99m,
+                WarrantyPeriod = "2 years"
+            });
         }
 
         public IActionResult Index()
@@ -112,6 +120,7 @@ namespace Final_Project.Controllers
             {
                 return View();
             }
+
         }
     }
 }
