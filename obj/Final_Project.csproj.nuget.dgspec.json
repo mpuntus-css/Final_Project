@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project\\Final_Project.csproj": {}
+    "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project_GitHub\\Final_Project\\Final_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project\\Final_Project.csproj": {
+    "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project_GitHub\\Final_Project\\Final_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project\\Final_Project.csproj",
+        "projectUniqueName": "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project_GitHub\\Final_Project\\Final_Project.csproj",
         "projectName": "Final_Project",
-        "projectPath": "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project\\Final_Project.csproj",
+        "projectPath": "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project_GitHub\\Final_Project\\Final_Project.csproj",
         "packagesPath": "C:\\Users\\nikmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project\\obj\\",
+        "outputPath": "C:\\Users\\nikmi\\Documents\\Software Class\\Final Project\\Final_Project\\Final_Project_GitHub\\Final_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,7 +43,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -66,6 +66,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.101, 9.0.101]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
